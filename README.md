@@ -1,4 +1,4 @@
-# 🎧 MoodTube - Darshan R
+# 🎧 MoodTube 
 
 **MoodTube** is a interactive web app that suggests songs and videos based on your **mood** and **language**.
 
