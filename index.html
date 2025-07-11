@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MoodTube 🎥 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class ="container">
+  <div id="header">
+    <h1>🎧 MoodTube<span class= "creator">-Darshan.R</span></h1>
+    <p>Select your mood and language to get a perfect vibe! 🎥</p>
+  </div>
+<div id="main">
+  
+    <!-- Mood Selection -->
+    <label for="mood">😌 Select Mood:</label>
+    <select id="mood">
+      <option value="sad">😢 Sad</option>
+      <option value="bored">😂 Bored</option>
+      <option value="angry">😡 Angry</option>
+      <option value="romantic">😍 Romantic</option>
+      <option value="motivated">🔥 Motivated</option>
+      <option value="sleepy">😴 Sleepy</option>
+      <option value="confident">😎 Confident</option>
+      <option value="confused">🧠 Confused</option>
+      <option value="lazy">🤤 Lazy</option>
+      <option value="stressed">🤯 Stressed</option>
+    </select>
+
+    <!-- Language Selection -->
+    <label for="language">🌍 Select Language:</label>
+    <select id="language">
+      <option value="english">English</option>
+      <option value="hindi">Hindi</option>
+      <option value="kannada">Kannada</option>
+      <option value="tamil">Tamil</option>
+      <option value="telugu">Telugu</option>
+     
+    </select>
+
+    <!-- Button -->
+    <button onclick="suggestVideo()">🎬 Show Video</button>
+
+    <!-- Result -->
+    <div id="videoResult"></div>
+  </div>
+  
+  </div>
+  <script src="script.js"></script>
+  
+  
+</body>
+</html>
