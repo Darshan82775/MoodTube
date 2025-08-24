@@ -22,9 +22,9 @@ Built using **HTML, CSS, and JavaScript**, it supports:
 
 ## 📂 Project Structure
 📁 MoodTube/
-├── index.html
-├── style.css
-└── script.js
+|─ index.html
+|─ style.css
+|─ script.js
 
 
 ---
